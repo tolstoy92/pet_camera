@@ -3,6 +3,7 @@ name = "pet-camera"
 version = "0.1.0"
 description = "Web-camera service"
 authors = ["Ivan Tolstoy <tolstoy.i.m@yandex.ru>"]
+license = "MIT"
 readme = "README.md"
 packages = [{include = "pet_camera"}]
 
