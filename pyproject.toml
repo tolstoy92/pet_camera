@@ -1,0 +1,17 @@
+[tool.poetry]
+name = "pet-camera"
+version = "0.1.0"
+description = "Web-camera service"
+authors = ["Ivan Tolstoy <tolstoy.i.m@yandex.ru>"]
+readme = "README.md"
+packages = [{include = "pet_camera"}]
+
+[tool.poetry.dependencies]
+python = "^3.10"
+opencv-python = "^4.6.0.66"
+pydantic = "^1.10.2"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
